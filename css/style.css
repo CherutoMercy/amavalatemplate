@@ -1,0 +1,344 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/*
+ * Home css for landing picture
+ */
+/*.home{
+  height:90vh;
+  background:url("../images/landing page.jpg");
+  background:cover;
+}*/
+#landingimage{
+ -webkit-filter : blur(2px) saturate(1);
+ filter:blur(2px) saturate(1);
+}
+
+.icons i{
+  font-size:30px;
+  margin-right:20px;
+}
+nav, .nav-wrapper i, nav a.button-collapse, nav a.button-collapse{
+ line-height:32px;
+}
+nav i, nav i.material-icons{
+  line-height:32px;
+}
+
+nav ul a{
+  color: #43C6DB;
+}
+nav .right,
+nav .right  li a {
+  color: #cf4646;
+}
+nav .right1  li a {
+  color: #cf4646;
+}
+nav .brand-logo {
+  color: #cf4646;
+}
+nav .brand-logo i, nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"], nav .brand-logo i.material-icons {
+
+    padding-top: 15px;
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+.p-elements {
+  line-height: 1rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+/*#small_posts_body{
+  height: 400px;
+  min-height: 400px;
+}*/
+
+.parallax-container {
+  min-height: 550px;
+  line-height: 600px;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.land {
+  padding-top: 60px;
+}
+
+
+.slides{
+  line-height: 600px;
+}
+.slider {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+.slides{
+  height: 600px;
+}
+
+.slider .slides {
+    background-color:transparent;
+    margin: 0;
+    min-height: 600px;
+}
+.slider .slides li {
+  background-color: #fff;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.responsive-img{
+line-height: 1000px;
+}
+.slider .indicators .indicator-item{
+background-color: #fff;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #fff;
+}
+
+  .parallax-container .section {
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 120px;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+.section{
+  padding-top:50px;
+}
+.card-height{
+  width: 300px;
+}
+
+.mid {
+    margin-left: 450px;
+}
+
+.card1-height{
+  width: 500px;
+}
+.card1 .card-image img{
+  height: 400px;
+}
+
+.card .card-image3 img{
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.card .card-image1 img{
+  height: 300px;
+  width: 100%;
+}
+
+.card .card-image2 img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.card-action {
+    position: relative;
+    color: #cf4646;
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 16px 24px;
+}
+
+.card-action1 {
+    position: relative;
+    color: #000;
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 3px 15px 5px 8px;
+}
+
+.card-action .material-icons{
+  padding: 16px 24px 0px 15px;
+}
+.card-action1 .material-icons{
+  padding: 5px 14px 0px 15px;
+}
+
+#edit{
+  margin: 20px 30px 20px 50px
+}
+.navbar-fixed{
+  position: fixed;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.input-field{
+  margin: 0 50px 20px 50px
+}
+
+h5{
+  font-size: 1.55rem;
+  text-transform: uppercase;
+  padding: 5px 5px 0px 5px;
+  border-bottom: 1px inset black;
+}
+
+h2{
+  font-size: 1.00rem;
+  text-transform: lowercase;;
+  padding: 5px 5px 0px 5px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: #43C6DB;
+    font-size: 1.0rem;
+    margin-right: 24px;
+    transition: color .3s ease;
+    text-transform: lowercase;;
+}
+
+
+.report{
+  height: 300px;
+  min-width: 100%;
+}
+.side-nav{
+  background-color: #;
+}
+#sidenav-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color:inherit;
+    z-index: 997;
+    will-change: opacity;
+}
+
+#banner_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#profile_pic {
+    margin-top: -200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 5px solid white;
+  }
+
+.collapsible-body{
+  background: #fff;
+}
+
+nav ul a:hover {
+  background-color: inherit;
+}
+
+.right {
+  padding:0px 40px 30px 0px;
+  margin-left: 900px;
+}
+
+.right1 {
+  padding:0px 0px 30px 0px;
+  margin-left: 1000px;
+}
+
+.right2 {
+  padding:0px 0px 0px 0px;
+  margin-left: 600px;
+}
+
+.right3 {
+  padding:0px 0px 0px 50px;
+  margin-left: 100px;
+}
+
+.collapsible-body {
+    padding: 2px 1px 2px 20px;
+}
+
+.nav ul a {
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+#bann{
+  height: 400px;
+  width: 1200px;
+}
+
+#about{
+margin-top: 170px;
+}
+
+
+.banner_text {font-size: 2.92rem;
+  line-height: 110%;
+  margin: 10.46rem 0 1.168rem 0;
+}
+
+nav i.material-icons {
+  display:inline;
+}
+.btn-flat {
+    background-color: #cf4646;
+
+}
+
+a {
+    color:#43C6DB;
+}
+
+.display-inline{
+  display: inline-block;
+  background: #fff;
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0px 0px 0px 0px;
+}
