@@ -30,17 +30,17 @@ nav i, nav i.material-icons{
 }
 
 nav ul a{
-  color: #43C6DB;
+  color: #000;
 }
 nav .right,
 nav .right  li a {
-  color: #cf4646;
+  color: #000;
 }
 nav .right1  li a {
-  color: #cf4646;
+  color: #000;
 }
 nav .brand-logo {
-  color: #cf4646;
+  color: #000;
 }
 nav .brand-logo i, nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"], nav .brand-logo i.material-icons {
 
@@ -133,11 +133,15 @@ background-color: #fff;
     top: 10%;
   }
 }
+#small_posts_body{
+  padding-left: 5px;
+}
 .section{
   padding-top:50px;
 }
 .card-height{
   width: 300px;
+  height: 400px;
 }
 
 .mid {
@@ -156,19 +160,28 @@ background-color: #fff;
   width: 500px;
   object-fit: cover;
 }
+.card .card-image2 img{
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
 .card .card-image1 img{
   height: 300px;
   width: 100%;
 }
-
-.card .card-image2 img{
-  height: 300px;
+.card.cardimage img{
+  height: 450px;
+  width: 300px;
+  object-fit: cover;
+}
+.cardimage{
+  height: 450px;
   width: 300px;
   object-fit: cover;
 }
 .card-action {
     position: relative;
-    color: #cf4646;
+    color: #000;
     background-color: inherit;
     border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 16px 24px;
@@ -187,6 +200,35 @@ background-color: #fff;
 }
 .card-action1 .material-icons{
   padding: 5px 14px 0px 15px;
+}
+
+.card .card-image .card-title {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 24px;
+}
+
+.card .card-image .card-title p {
+    line-height: 0.4rem;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(160, 160, 160, 0.2);
+}
+
+.card-title p{
+  margin: 0px 0px;
+  text-decoration: underline;
+}
+.card .card-image .card-title h {
+    line-height: 0.4rem;
+    font-size: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #edit{
@@ -312,13 +354,27 @@ margin-top: 170px;
 nav i.material-icons {
   display:inline;
 }
-.btn-flat {
-    background-color: #cf4646;
+.btn-large {
+    background-color: #808080;
+    color: #4b4f56;
+    text-transform: none;;
+}
 
+.btn:focus, .btn-large:focus, .btn-floating:focus {
+    background-color: #f6f7f9;
+}
+.btn-flat {
+    background-color: #f6f7f9;
+    color: #4b4f56;
+    text-transform: none;;
 }
 
 a {
-    color:#43C6DB;
+    color:#000;
+}
+
+.chip{
+  background-color: #fff;
 }
 
 .display-inline{
@@ -337,6 +393,9 @@ a {
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+.copyright a{
+  color: #fff;
 }
 
 footer.page-footer {
