@@ -57,7 +57,7 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #000;
 }
 
 /*#small_posts_body{
@@ -366,7 +366,18 @@ nav i.material-icons {
 .btn-flat {
     background-color: #f6f7f9;
     color: #4b4f56;
-    text-transform: none;;
+    text-transform: none;
+}
+
+.btn {
+    background-color: #808080;
+    color: #4b4f56;
+    text-transform: none;
+}
+
+.modal .waves-effect {
+    cursor: pointer;
+    background-color: #808080;
 }
 
 a {
