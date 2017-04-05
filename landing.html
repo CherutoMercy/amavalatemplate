@@ -8,17 +8,23 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+
 <nav class="navbar-fixed">
-   <a id="logo-container" href="index.html" class="brand-logo"><i>Amavala</i></a>
+   <a id="logo-container" href="index.html" class="brand-logo">Amavala</a>
    <ul class="right hide-on-med-and-down">
-    <li><a href="landing.html"<i class="large material-icons">announcement</i></a></li>
-    <li><a href="users.html"<i class="large material-icons">supervisor_account</i></a></li>
-    <li><a href="profile.html"<i class="large material-icons">account_box</i></a></li>
-    <li><a href="#modal3">New Photo</a></li>
+    <ul id="dropdown2" class="dropdown-content nested active" >
+    <li><a href="#modal3">New Look</a></li>
     <li><a href="newphotoshoot.html">New Photoshoot</a></li>
+    </ul>
+    <li><a href="landing.html"><i class="fa fa-envelope fa-lg"></i></a></li>
+    <li><a href="users.html"><i class="fa fa-users fa-lg"></i></a></li>
+    <li><a href="profile.html"><i class="fa fa-user fa-lg"></i></a></li>
+    <li><a class='dropdown-button' href='#' data-activates='dropdown2' data-beloworigin="true">Upload<i class="fa fa-sort-desc fa-lg right"></i></a></li>
+
    </ul>
 
    <ul id="nav-mobile" class="side-nav">
@@ -52,13 +58,13 @@
                   <img src="images/p4.jpg">
                  </div>
             <div class="card-action">
-              <i class="material-icons">favorite_border</i>
-              <i class="material-icons">chat_bubble_outline</i>
-              <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+              <i class="fa fa-heart-o fa-lg"></i>
+              <i class="fa fa-comment-o fa-lg"></i>
+              <span class="card-title activator grey-text text-darken-4"><i class="fa fa-angle-double-up fa-lg right"></i></span>
             </div>
                   <div class="card-reveal">
                    <div class="modal-content">
-                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <span class="card-title grey-text text-darken-4"><i class="fa fa-times fa-lg right"></i></span>
                    <h5>Report image</h5>
                    <div class ="row">
                      <div class="col s12 m12 l12">
@@ -99,13 +105,13 @@
                   <img src="images/p2.jpg">
                  </div>
             <div class="card-action">
-              <i class="material-icons">favorite_border</i>
-              <i class="material-icons">chat_bubble_outline</i>
-              <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+              <i class="fa fa-heart-o fa-lg"></i>
+              <i class="fa fa-comment-o fa-lg"></i>
+              <span class="card-title activator grey-text text-darken-4"><i class="fa fa-angle-double-up fa-lg right"></i></span>
             </div>
-                   <div class="card-reveal">
+                  <div class="card-reveal">
                    <div class="modal-content">
-                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <span class="card-title grey-text text-darken-4"><i class="fa fa-times fa-lg right"></i></span>
                    <h5>Report image</h5>
                    <div class ="row">
                      <div class="col s12 m12 l12">
@@ -146,13 +152,13 @@
                   <img src="images/p3.jpg">
                  </div>
             <div class="card-action">
-              <i class="material-icons">favorite_border</i>
-              <i class="material-icons">chat_bubble_outline</i>
-              <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+              <i class="fa fa-heart-o fa-lg"></i>
+              <i class="fa fa-comment-o fa-lg"></i>
+              <span class="card-title activator grey-text text-darken-4"><i class="fa fa-angle-double-up fa-lg right"></i></span>
             </div>
                   <div class="card-reveal">
                    <div class="modal-content">
-                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <span class="card-title grey-text text-darken-4"><i class="fa fa-times fa-lg right"></i></span>
                    <h5>Report image</h5>
                    <div class ="row">
                      <div class="col s12 m12 l12">
@@ -184,7 +190,7 @@
 </div>
 
       <div class="col s12 m4 l3 ">
-        <div class="row">
+       <!-- <div class="row">
           <div class="col s4 m4 l12">
                <h5>Styles</h5>
                     <p class = "p-elements"><a href="https://amavala.com/style/african_wear">African Wear</a></p>
@@ -223,7 +229,7 @@
                       <p class = "p-elements"><a href="https://amavala.com/event/concert">Concert</a></p>
                       <p class = "p-elements"><a href="https://amavala.com/event/concert">Sports</a></p>
                </div>
-      </div>
+      </div>-->
       </div>
    </div>
  </div>
