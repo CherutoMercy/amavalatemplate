@@ -10,7 +10,8 @@
   $(document).ready(function(){
     $('.collapsible').collapsible();
     $(".dropdown-button").dropdown();
-     $('.slider').slider();
-     $('.modal').modal();
-      $('select').material_select();
+    $('.slider').slider();
+    $('.modal').modal();
+    $('select').material_select();
+    $('.tooltipped').tooltip({delay: 50});
   });

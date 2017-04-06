@@ -14,17 +14,28 @@
 <body>
 
 <nav class="navbar-fixed">
-   <a id="logo-container" href="index.html" class="brand-logo">Amavala</a>
+   <ul class="left">
+    <li><a href="#">Streetstyle</a></li>
+    <li><a class='dropdown-button hide-on-med-and-down' href='#' data-activates='dropdown1' data-beloworigin="true">Explore</a></li>
+    <li>
+      <form>
+        <div class="input-field hide-on-med-and-down">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+        </div>
+      </form>
+    </li>
+   </ul>
    <ul class="right hide-on-med-and-down">
-    <ul id="dropdown2" class="dropdown-content nested active" >
-    <li><a href="#modal3">New Look</a></li>
-    <li><a href="newphotoshoot.html">New Photoshoot</a></li>
-    </ul>
+      <ul id="dropdown2" class="dropdown-content nested active" >
+         <li><a href="#modal3">New Look</a></li>
+         <li><a href="newphotoshoot.html">New Photoshoot</a></li>
+      </ul>
     <li><a href="landing.html"><i class="fa fa-envelope fa-lg"></i></a></li>
     <li><a href="users.html"><i class="fa fa-users fa-lg"></i></a></li>
     <li><a href="profile.html"><i class="fa fa-user fa-lg"></i></a></li>
-    <li><a class='dropdown-button' href='#' data-activates='dropdown2' data-beloworigin="true">Upload<i class="fa fa-sort-desc fa-lg right"></i></a></li>
-
+    <li><a class='dropdown-button' href='#' data-activates='dropdown2' data-beloworigin="true">Upload</a></li>
+    <li><a href="index.html">Logout</a></li>
    </ul>
 
    <ul id="nav-mobile" class="side-nav">
@@ -34,9 +45,52 @@
     <li><a href="#modal3">New Photo</a></li>
     <li><a href="newphotoshoot.html">New Photoshoot</a></li>
    </ul>
-   <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+   <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-bars fa-lg"></i></a>
  </div>
 </nav>
+
+      <div id="dropdown1" class="dropdown-content nested active s12 m12 l12" >
+        <h>Styles & Events</h>
+        <div class ="row">
+        <div class="col s12 m3 l3">
+                    <a href="landing.html">African</a>
+                    <a href="landing.html">Hats</a>
+                    <a href="landing.html">Ankara</a>
+                    <a href="landing.html">jeans</a>
+                    <a href="landing.html">Dresses</a>
+                    <a href="landing.html">Suits</a>
+                    <a href="landing.html">Swim</a>
+       </div>
+        <div class="col s12 m3 l3">
+                    <a href="landing.html">Outerwear</a>
+                    <a href="landing.html">Lingerie</a>
+                    <a href="landing.html">Artistic</a>
+                    <a href="landing.html">Hijab</a>
+                    <a href="landing.html">Blazers</a>
+                    <a href="landing.html">Casual</a>
+                    <a href="landing.html">Buibui</a>
+        </div>
+        <div class="col s12 m3 l3">
+                    <a href="landing.html">Bikini</a>
+                    <a href="landing.html">Shorts</a>
+                    <a href="landing.html">Hairstyle</a>
+                    <a href="landing.html">Skirts</a>
+                    <a href="landing.html">Heels</a>
+                    <a href="landing.html">Street</a>
+                    <a href="landing.html">Wedding</a>
+        </div>
+        <div class="col s12 m3 l3">
+                    <a href="landing.htmlh">Beach</a>
+                    <a href="landing.html">Birthday</a>
+                    <a href="landing.html">Campus</a>
+                    <a href="landing.html">Travel</a>
+                    <a href="landing.html">Festival</a>
+                    <a href="landing.html">Concert</a>
+                    <a href="landing.html">Sports</a>
+        </div>
+        </div>
+      </div>
+
 
 <!-- SMALL PAGE NAVIGATION END -->
 <div class="row">
@@ -49,26 +103,32 @@
       </br>
           <div id="small_posts_body" class="row small_posts_list">
           <div id="small_post_image" class="col s12">
-            <div class="chip">
-               <img src="images/p4.jpg" alt="Contact Person">
-                   Angela
-            </div>
+          <div class ="profile">
+           <ul class="collection">
+             <li class="collection-item avatar">
+               <img src="images/shk.jpg" alt="" class="circle">
+               <a href ="#" class="title">SonOfMary</a>
+               <p>Here is some content about this image</p>
+             </li>
+             </ul>
+           </div>
               <div class="card card1-height">
                  <div class="card-image3">
-                  <img src="images/p4.jpg">
+                  <img src="images/shk.jpg">
                  </div>
             <div class="card-action">
-              <i class="fa fa-heart-o fa-lg"></i>
-              <i class="fa fa-comment-o fa-lg"></i>
-              <span class="card-title activator grey-text text-darken-4"><i class="fa fa-angle-double-up fa-lg right"></i></span>
+              <a href ="#"><i class="fa fa-heart-o fa-lg"></i></a>
+              <a href ="#modal5"><i class="fa fa-comment-o fa-lg"></i><a>
+              <a href ="#"><i class="fa fa-star-o fa-lg"></i></a>
+              <span class="card-title activator grey-text text-darken-4"><i class="fa fa-ellipsis-v fa-lg right"></i></span>
             </div>
                   <div class="card-reveal">
                    <div class="modal-content">
                     <span class="card-title grey-text text-darken-4"><i class="fa fa-times fa-lg right"></i></span>
                    <h5>Report image</h5>
                    <div class ="row">
-                     <div class="col s12 m12 l12">
-                      <img class="report" src="images/p4.jpg">
+                     <div class="card-image4 col s12 m12 l12">
+                      <img class="report" src="images/shk.jpg">
                       </div>
                        </div>
                     <div class ="row">
@@ -96,26 +156,32 @@
 
            <div id="small_posts_body" class="row small_posts_list">
           <div id="small_post_image" class="col s12">
-            <div class="chip">
-               <img src="images/p4.jpg" alt="Contact Person">
-                   Angela
-            </div>
+          <div class ="profile">
+           <ul class="collection">
+             <li class="collection-item avatar">
+               <img src="images/shk4.jpg" alt="" class="circle">
+               <a href ="#" class="title">Terry</a>
+               <p>Here is some content about this image</p>
+             </li>
+             </ul>
+           </div>
               <div class="card card1-height">
                  <div class="card-image3">
-                  <img src="images/p2.jpg">
+                  <img src="images/shk4.jpg">
                  </div>
             <div class="card-action">
-              <i class="fa fa-heart-o fa-lg"></i>
-              <i class="fa fa-comment-o fa-lg"></i>
-              <span class="card-title activator grey-text text-darken-4"><i class="fa fa-angle-double-up fa-lg right"></i></span>
+              <a href ="#"><i class="fa fa-heart-o fa-lg"></i></a>
+              <a href ="#modal5"><i class="fa fa-comment-o fa-lg"></i><a>
+              <a href ="#"><i class="fa fa-star-o fa-lg"></i></a>
+              <span class="card-title activator grey-text text-darken-4"><i class="fa fa-ellipsis-v fa-lg right"></i></span>
             </div>
                   <div class="card-reveal">
                    <div class="modal-content">
                     <span class="card-title grey-text text-darken-4"><i class="fa fa-times fa-lg right"></i></span>
                    <h5>Report image</h5>
                    <div class ="row">
-                     <div class="col s12 m12 l12">
-                      <img class="report" src="images/p2.jpg">
+                     <div class="card-image4 col s12 m12 l12">
+                      <img class="report" src="images/shk4.jpg">
                       </div>
                        </div>
                     <div class ="row">
@@ -143,26 +209,32 @@
 
              <div id="small_posts_body" class="row small_posts_list">
                <div id="small_post_image" class="col s12">
-                   <div class="chip">
-                      <img src="images/p4.jpg" alt="Contact Person">
-                          Angela
-                   </div>
+          <div class ="profile">
+           <ul class="collection">
+             <li class="collection-item avatar">
+               <img src="images/shk5.jpg" alt="" class="circle">
+               <a href ="#" class="title">Angela</a>
+               <p>Here is some content about this image</p>
+             </li>
+             </ul>
+           </div>
               <div class="card card1-height">
                  <div class="card-image3">
-                  <img src="images/p3.jpg">
+                  <img src="images/shk5.jpg">
                  </div>
             <div class="card-action">
-              <i class="fa fa-heart-o fa-lg"></i>
-              <i class="fa fa-comment-o fa-lg"></i>
-              <span class="card-title activator grey-text text-darken-4"><i class="fa fa-angle-double-up fa-lg right"></i></span>
+              <a href ="#"><i class="fa fa-heart-o fa-lg"></i></a>
+              <a href ="#modal5"><i class="fa fa-comment-o fa-lg"></i><a>
+              <a href ="#"><i class="fa fa-star-o fa-lg"></i></a>
+              <span class="card-title activator grey-text text-darken-4"><i class="fa fa-ellipsis-v fa-lg right"></i></span>
             </div>
                   <div class="card-reveal">
                    <div class="modal-content">
                     <span class="card-title grey-text text-darken-4"><i class="fa fa-times fa-lg right"></i></span>
                    <h5>Report image</h5>
                    <div class ="row">
-                     <div class="col s12 m12 l12">
-                      <img class="report" src="images/p3.jpg">
+                     <div class="card-image4 col s12 m12 l12">
+                      <img class="report" src="images/shk5.jpg">
                       </div>
                        </div>
                     <div class ="row">
@@ -190,46 +262,7 @@
 </div>
 
       <div class="col s12 m4 l3 ">
-       <!-- <div class="row">
-          <div class="col s4 m4 l12">
-               <h5>Styles</h5>
-                    <p class = "p-elements"><a href="https://amavala.com/style/african_wear">African Wear</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/hats">Hats</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/ankara">Ankara</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">jeans</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/dresses">Dresses</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/suits">Suits</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">Suits</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">Swim</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/bikini">Bikini</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/shorts">Shorts</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">Outerwear</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/lingerie">Lingerie</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/hairstyle">Hairstyle</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/skirts">Skirts</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">Heels</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">Artistic</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/hijab">Hijab</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">Blazers</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">Casual</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/buibui">Buibui</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">Maxi Dress</a></p>
-                    <p class = "p-elements"><a href="https://amavala.com/style/maxi_dress">Street</a></p>
-      </div>
 
-      <div class="col s4 m4 l12">
-             <h5>Events</h5>
-                      <p class = "p-elements"><a href="https://amavala.com/event/wedding">Wedding</a></p>
-                      <p class = "p-elements"><a href="https://amavala.com/event/beach">Beach</a></p>
-                      <p class = "p-elements"><a href="https://amavala.com/event/concert">Birthday</a></p>
-                      <p class = "p-elements"><a href="https://amavala.com/event/campus">Campus</a></p>
-                      <p class = "p-elements"><a href="https://amavala.com/event/travel">Travel</a></p>
-                      <p class = "p-elements"><a href="https://amavala.com/event/concert">Get together</a></p>
-                      <p class = "p-elements"><a href="https://amavala.com/event/festival">Festival</a></p>
-                      <p class = "p-elements"><a href="https://amavala.com/event/concert">Concert</a></p>
-                      <p class = "p-elements"><a href="https://amavala.com/event/concert">Sports</a></p>
-               </div>
-      </div>-->
       </div>
    </div>
  </div>
@@ -285,7 +318,7 @@
         </div>
       </div>
       <div class="input-field col s12">
-        <a href="#!" class="secondary-content modal-action modal-close waves-effect waves-red btn-flat left">Post</a>
+        <a href="landing.html" class="btn-flat ">Post</a>
       </div>
     </div>
   </div>
@@ -349,6 +382,28 @@
   <div class="modal-footer">
 </div>
 </div>
+
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <h4>Comments</h4>
+      <p>Add your comment</p>
+       <div class="chip">
+         <img src="images/p3.jpg" alt="Contact Person">
+          <a href="/profile">Neyomie </a>
+      </div>
+      <h>Looking good</h>
+    </div>
+    <div class="modal-footer">
+        <form>
+        <div class="input-field">
+          <input placeholder="Please enter your Comment" id="comment" type="text">
+             <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat">Submit</a>
+        </div>
+     
+        </form>
+    </div>
+  </div>
+
 </section>
 
   <!--  Scripts-->

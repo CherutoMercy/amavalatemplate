@@ -32,9 +32,15 @@ nav i, nav i.material-icons{
 nav ul a{
   color: #000;
 }
+nav ul h{
+  font-size: 20px;
+  color: #000;
+  padding-left: 150px;
+  text-decoration: underline;
+}
 nav .right,
 nav .right  li a {
-  color: #000;
+  color:    #787878;
 }
 nav .right1  li a {
   color: #000;
@@ -49,6 +55,14 @@ nav .brand-logo i, nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi
     padding-top: 15px;
 }
 
+nav #dropdown1 {
+    display: inline-block;
+    margin-top: 20px;
+    padding:5px 5px 5px 5px;
+    width: 500px !important;
+    height: 300px;
+}
+
 nav #dropdown2 {
     display: inline-block;
     margin-top: 20px;
@@ -60,6 +74,49 @@ nav #dropdown2 {
 
 .dropdown-content .dropdown-content {
    margin-left: 100%;
+}
+
+nav .input-field {
+    margin: 0;
+    height: 100%;
+    background-color: #F8F8F8;
+    width: 200px;
+}
+nav .input-field label i {
+    color: #000;
+    transition: color .3s;
+}
+
+.input-field input[type="search"]:focus {
+    background-color: #F8F8F8;
+    border: 0;
+    box-shadow: none;
+    color: #444;
+}
+
+.profile .collection {
+   height: 70px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile .collection .collection-item.avatar .circle {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    overflow: hidden;
+    left: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile .collection .collection-item.avatar .secondary-content {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    margin-right: 50px;
 }
 
 p {
@@ -133,6 +190,15 @@ form p:last-child {
 .responsive-img{
 line-height: 1000px;
 }
+
+.collection {
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 80px 0px 80px;
+}
 .slider .indicators .indicator-item{
 background-color: #fff;
 }
@@ -159,6 +225,10 @@ background-color: #fff;
 #small_posts_body{
   padding-left: 5px;
 }
+#small_posts_body1 {
+    padding-top: 60px;
+}
+
 .section{
   padding-top:50px;
 }
@@ -174,15 +244,26 @@ background-color: #fff;
 .card1-height{
   width: 500px;
 }
+
+.card{
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0);
+}
 .card1 .card-image img{
   height: 400px;
 }
 
 .card .card-image3 img{
   height: 500px;
-  width: 500px;
+  width: 100%;
   object-fit: cover;
 }
+
+.card .card-image4 img{
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+}
+
 .card .card-image2 img{
   height: 500px;
   width: 500px;
@@ -190,7 +271,7 @@ background-color: #fff;
 }
 .card .card-image1 img{
   height: 300px;
-  width: 100%;
+  width: 500px;
 }
 .card.cardimage img{
   height: 450px;
@@ -208,6 +289,19 @@ background-color: #fff;
   width: 300px;
   object-fit: cover;
 }
+
+.cardimage3{
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.cardimage2{
+  height: 180px;
+  width: 180px;
+  padding-right: 20px;
+  object-fit: cover;
+}
 .card-action {
     position: relative;
     color: #808080;
@@ -218,7 +312,15 @@ background-color: #fff;
 
 .card-action .fa{
   padding-right: 15px;
+  font-size: 20px;
 }
+.card-action a .fa {
+  padding-right: 15px;
+  font-size: 20px;
+  color: #808080;
+  margin-right: 5px;
+}
+
 .card-action1 {
     position: relative;
     color: #000;
@@ -316,11 +418,10 @@ h2{
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
     color: #43C6DB;
     font-size: 1.0rem;
-    margin-right: 24px;
+    margin-right: 5px;
     transition: color .3s ease;
     text-transform: lowercase;;
 }
-
 
 .report{
   height: 300px;
@@ -328,6 +429,7 @@ h2{
 }
 .side-nav{
   background-color: #;
+  color: #787878;
 }
 #sidenav-overlay {
     position: absolute;
@@ -363,7 +465,6 @@ nav ul a:hover {
 
 .right {
   padding:0px 40px 30px 0px;
-  margin-left: 900px;
 }
 
 .right1 {
@@ -399,7 +500,7 @@ nav ul a:hover {
 }
 
 #about{
-margin-top: 170px;
+padding-top: 50px;
 }
 
 
@@ -412,17 +513,17 @@ nav i.material-icons {
   display:inline;
 }
 .btn-large {
-    background-color: #808080;
-    color: #4b4f56;
-    text-transform: none;;
+    background-color: #337ab7;
+    color: #fff;
+    text-transform: none;
 }
 
-.btn:focus, .btn-large:focus, .btn-floating:focus {
-    background-color: #f6f7f9;
+.btn:focus, .btn-flat:hover,.btn-flat:focus,.btn-large:hover,.btn-large:focus, .btn-floating:focus {
+    background-color:#808080;
 }
 .btn-flat {
-    background-color: #808080;
-    color: #4b4f56;
+    background-color: #337ab7;
+    color: #fff;
     text-transform: none;
 }
 
@@ -434,7 +535,7 @@ nav i.material-icons {
 
 .modal .waves-effect {
     cursor: pointer;
-    background-color: #808080;
+    background-color: #337ab7;
 }
 
 .photos{
